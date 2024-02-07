@@ -44,4 +44,4 @@ const randomBtn = document.querySelector('.random-btn');
 let currentItem = 0;
 
 // load intial item 
-window.addEventListener()
+window.addEventListener('DOMContentLoaded')
