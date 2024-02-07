@@ -76,3 +76,10 @@ prevBtn.addEventListener('click', function() {
   }
   showPerson(currentItem)
 })
+
+
+// show random person
+randomBtn.addEventListener('click', function() {
+  const random = Math.floor(Math.random() * reviews.length)
+  showPerson(random)
+})
