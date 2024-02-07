@@ -46,4 +46,5 @@ let currentItem = 0;
 // load intial item 
 window.addEventListener('DOMContentLoaded', function() {
   const item = reviews[currentItem]
+  img.src = item.img
 })
