@@ -60,4 +60,7 @@ function showPerson(person) {
 
 // show next person 
 
-nextBtn.addEventListener('click')
+nextBtn.addEventListener('click', function() {
+  currentItem++
+  showPerson(currentItem)
+})
