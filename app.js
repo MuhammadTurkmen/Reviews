@@ -49,4 +49,5 @@ window.addEventListener('DOMContentLoaded', function() {
   img.src = item.img
   author.textContent = item.name
   job.textContent = item.job
+  info.textContent = item.text
 })
