@@ -57,3 +57,7 @@ function showPerson(person) {
   job.textContent = item.job
   info.textContent = item.text
 }
+
+// show next person 
+
+nextBtn.addEventListener('click')
