@@ -71,4 +71,5 @@ nextBtn.addEventListener('click', function() {
 // show prev person
 prevBtn.addEventListener('click', function() {
   currentItem--;
+  showPerson(currentItem)
 })
