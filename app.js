@@ -51,3 +51,5 @@ window.addEventListener('DOMContentLoaded', function() {
   job.textContent = item.job
   info.textContent = item.text
 })
+
+// show person based on item
